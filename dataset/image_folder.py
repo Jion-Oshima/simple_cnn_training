@@ -17,6 +17,8 @@ class ImageFolderInfo():
     train_transform: transforms
     val_transform: transforms
 
+# 自作関数追加
+
 
 def image_folder(
         image_folder_info: ImageFolderInfo
