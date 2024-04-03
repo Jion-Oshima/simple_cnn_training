@@ -1,7 +1,7 @@
 from typing import Literal
 from dataclasses import dataclass
 
-
+# モデルを追加する
 SupportedModels = Literal[
     "resnet18",
     "resnet50",
@@ -9,6 +9,7 @@ SupportedModels = Literal[
     "vit_b",
     "x3d",
     "zero_output_dummy",
+    "vgg19"
 ]
 
 
