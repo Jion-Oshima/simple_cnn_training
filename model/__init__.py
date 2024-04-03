@@ -7,6 +7,7 @@ from .base_model import (
 from .x3d import X3DM
 from .resnet import ResNet18, ResNet50  # pylint: disable=import-error
 from .abn import ABNResNet50
+from .vgg19 import VGG19
 from .vit import ViTb
 from .dummy_models import ZeroOutputModel
 
@@ -24,6 +25,7 @@ __all__ = [
     'ResNet18',
     'ResNet50',
     'ABNResNet50',
+    "VGG19",
     'ViTb',
     'ZeroOutputModel',
     'configure_model',
